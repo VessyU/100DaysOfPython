@@ -24,11 +24,11 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 
-x= input("left or right? ")
+x= input("You're at a crossroad, where do you want to go? left or right? ")
 if x.lower()=="right":
-  x=input("swim or wait? ")
+  x=input("You've come to a lake, there is an island in the middle of the lake. Swim or wait? ")
   if x.lower()=="wait":
-    x=input("Which door? Red, Blue, Yellow? ")
+    x=input("Good choice! 3 doors appear in front of you which do you choose? Red, Blue, Yellow? ")
     if x.lower()=="red":
       print("You've fallen into hell, you die an agonising death. ")
       
