@@ -23,5 +23,5 @@ for x in range(0,nr_symbols):
 password_range=len(password)
 password_1=""
 for x in range(0,password_range):
-  password_1+=str(password[x])
+  password_1+=str(random.choice(password))
 print(password_1)
