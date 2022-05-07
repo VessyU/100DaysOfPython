@@ -37,7 +37,7 @@ def blackjack():
       for x in range(pclen):
         p_score = deck.get(players_cards[x])
         player_score += p_score
-      for x in players_cards: # need to account for ace possibly being 1 instead of 11, + chance of getting 4 aces is 0.00003501277 so won't account for chance of getting 4+ aces in game
+      for x in players_cards: # need to account for ace possibly being 1 instead of 11, + blackjack is typically played with multiple decks so no need to worry if over 4 aces etc..
         if x == "A":
           ace += 1
         if ace > 0 and player_score > 21:
